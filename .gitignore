@@ -1,33 +1,27 @@
-HELP.md
+# Java ve Maven için
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+*.class
 
-### STS ###
+# IDE ayar dosyaları
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# STS workspace dosyaları
 .apt_generated
 .classpath
 .factorypath
 .project
 .settings
 .springBeans
-.sts4-cache
+bin/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# OS files
+.DS_Store
+Thumbs.db
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
