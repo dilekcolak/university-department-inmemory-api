@@ -35,14 +35,18 @@ data is stored **in-memory** using a **Java List** structure.
 
 4. Access the API using Postman or any API testing tool.
 
-📌 Example Endpoints
-Method	Endpoint						Description
-GET		/rest/api/departments			List all departments
-GET		/rest/api/departments/{id}		Get department by ID
-POST	/rest/api/departments			Add new department
-PUT		/rest/api/departments/{id}		Update department
-DELETE	/rest/api/departments/{id}		Delete department
+## 📌 Example Endpoints
 
-👩‍💻 Developer
-Name: Dilek Çolak
-GitHub: @dilekcolak
+| Method | Endpoint | Description |
+|:------:|:---------|:------------|
+| GET | /rest/api/departments | List all departments |
+| GET | /rest/api/departments/{id} | Get department by ID |
+| POST | /rest/api/departments | Add new department |
+| PUT | /rest/api/departments/{id} | Update department |
+| DELETE | /rest/api/departments/{id} | Delete department |
+
+
+## 👩‍💻 Developer
+
+- **Name:** Dilek Çolak
+- **GitHub:** [@dilekcolak](https://github.com/dilekcolak)
